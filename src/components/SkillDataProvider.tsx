@@ -8,10 +8,11 @@ interface Props {
   src: string
   width: number
   height: number
+  skillName: string
   index: number
 }
 
-const SkillDataProvider = ({ src, width, height, index }: Props) => {
+const SkillDataProvider = ({ src, width, height, skillName, index }: Props) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
   })
@@ -31,7 +32,7 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
       custom={index}
       transition={{ delay: index * animationDelay }}
     >
-      <img src={src} width={width} height={height} alt="skill image" />
+      <img src={src} width={width} height={height} alt={skillName} />
     </motion.div>
   )
 }

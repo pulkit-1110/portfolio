@@ -10,7 +10,7 @@ import close from './close.svg'
 import computer from './computer.png'
 
 import css from './tech/css.png'
-import figma from './tech/figma.png'
+// import figma from './tech/figma.png'
 import git from './tech/git.png'
 import html from './tech/html.png'
 import javascript from './tech/javascript.png'
@@ -19,7 +19,7 @@ import angular from './tech/angular.png'
 import bootstrap from './tech/bootstrap.png'
 import typescript from './tech/typescript.png'
 import nextjs from './tech/nextjs 15.png'
-import mongodb from './tech/mongodb.png'
+import mongodb from './tech/mongodb.svg'
 import expressjs from './tech/express.png'
 import nodejs from './tech/node-js.png'
 import expo from './tech/expo .png'
@@ -27,6 +27,12 @@ import docker from './tech/docker.png'
 import reactnative from './tech/reactnative.png'
 import tailwind from './tech/tailwind.png'
 import postman from './tech/postman.png'
+import python from './tech/python.png'
+import c from './tech/c.png'
+import cplus from './tech/c++.png'
+import figma from './tech/figma.svg'
+import aws from './tech/aws.webp'
+import mysql from './tech/mysql.svg'
 
 import leherLogo from './company/leherLogo.png'
 import theSparksFoundationLogo from './company/theSparksFoundationLogo.png'
@@ -47,7 +53,6 @@ export {
   menu,
   close,
   css,
-  figma,
   git,
   html,
   javascript,
@@ -72,4 +77,10 @@ export {
   computer,
   postman,
   resume,
+  c,
+  cplus,
+  python,
+  aws,
+  mysql,
+  figma,
 }

@@ -23,6 +23,12 @@ import {
   chatNexus,
   github,
   postman,
+  cplus,
+  python,
+  c,
+  aws,
+  mysql,
+  figma,
 } from '../assets'
 
 export const navLinks = [
@@ -220,22 +226,22 @@ export const Skill_data = [
     height: 120,
   },
   {
-    skill_name: 'Java Script',
-    Image: javascript,
-    width: 120,
-    height: 120,
-  },
-  {
-    skill_name: 'Type Script',
-    Image: typescript,
-    width: 120,
-    height: 120,
-  },
-  {
     skill_name: 'Tailwind Css',
     Image: tailwind,
     width: 120,
     height: 120,
+  },
+  {
+    skill_name: 'Figma',
+    Image: figma,
+    width: 100,
+    height: 100,
+  },
+  {
+    skill_name: 'Git',
+    Image: git,
+    width: 140,
+    height: 140,
   },
   // {
   //   skill_name: 'Redux',
@@ -302,30 +308,69 @@ export const Socials = [
   },
 ]
 
+export const languages = [
+  {
+    skill_name: 'C',
+    Image: c,
+    width: 100,
+    height: 100,
+  },
+  {
+    skill_name: 'C++',
+    Image: cplus,
+    width: 100,
+    height: 100,
+  },
+  {
+    skill_name: 'Python',
+    Image: python,
+    width: 120,
+    height: 120,
+  },
+  {
+    skill_name: 'Java Script',
+    Image: javascript,
+    width: 120,
+    height: 120,
+  },
+  {
+    skill_name: 'Type Script',
+    Image: typescript,
+    width: 120,
+    height: 120,
+  },
+  {
+    skill_name: 'MySQL',
+    Image: mysql,
+    width: 140,
+    height: 140,
+  },
+]
+
 export const Frontend_skill = [
   {
     skill_name: 'Next Js',
     Image: nextjs,
-    width: 140,
-    height: 140,
+    width: 120,
+    height: 120,
   },
   {
     skill_name: 'React JS',
     Image: reactjs,
-    width: 120,
-    height: 120,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: 'React Native',
     Image: reactnative,
-    width: 160,
-    height: 160,
+    width: 140,
+    height: 140,
   },
   {
     skill_name: 'Expo',
     Image: expo,
-    width: 120,
-    height: 120,
+    width: 100,
+    height: 100,
   },
   // {
   //   skill_name: 'Material UI',
@@ -369,20 +414,20 @@ export const Backend_skill = [
   {
     skill_name: 'Node js',
     Image: nodejs,
-    width: 120,
-    height: 120,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: 'Express js',
     Image: expressjs,
-    width: 120,
-    height: 120,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: 'Mongo db',
     Image: mongodb,
-    width: 70,
-    height: 70,
+    width: 120,
+    height: 120,
   },
   // {
   //   skill_name: 'Fire base',
@@ -418,16 +463,16 @@ export const Backend_skill = [
 
 export const Full_stack = [
   {
-    skill_name: 'Git',
-    Image: git,
-    width: 150,
-    height: 150,
+    skill_name: 'AWS',
+    Image: aws,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: 'Docker',
     Image: docker,
-    width: 130,
-    height: 130,
+    width: 100,
+    height: 100,
   },
 ]
 
@@ -435,7 +480,7 @@ export const Other_skill = [
   {
     skill_name: 'Postman',
     Image: postman,
-    width: 120,
-    height: 120,
+    width: 100,
+    height: 100,
   },
 ]
