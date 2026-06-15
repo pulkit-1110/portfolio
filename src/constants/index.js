@@ -20,7 +20,8 @@ import {
   devops,
   mysteryMessage,
   expressEcho,
-  chatNexus,
+  clawkit,
+  pocketlm,
   github,
   postman,
   cplus,
@@ -81,27 +82,26 @@ const technologies = [
 const experiences = [
   {
     title: 'Software Developer Engineer',
-    company_name: 'Leher',
+    company_name: 'Leher Sustainable Agri Pvt. Ltd.',
     icon: leherLogo,
     iconBg: '#fff',
     date: 'July 2024 - Present',
     points: [
-      'Managed backend development and infrastructure.',
-      'Contributed to Pilot PWA and Admin Console frontend.',
-      'Implemented feedback, notifications, and referral system in Leher app.',
-      'Developed WhatsApp workflows for order creation and feedback.',
-      'Collaborated with product and design teams to align development with business goals.',
+      'Developed WhatsApp Flows for order creation and feedback collection, automating the booking process and increasing bookings by 30%.',
+      'Launched a referral program using Branch.io deep links, growing the user base by 20%.',
+      'Built a CI/CD pipeline to deploy the backend on AWS ECS via Docker images and automated task-definition updates, reducing deployment time by ~60%.',
+      'Engineered an AWS Lambda function to stream error logs to Slack, reducing error-detection time by ~40%.',
     ],
   },
   {
     title: 'Full Stack Developer Intern',
-    company_name: 'Leher',
+    company_name: 'Leher Sustainable Agri Pvt. Ltd.',
     icon: leherLogo,
     iconBg: '#fff',
     date: 'Sept 2023 - May 2024',
     points: [
-      'Built RESTful APIs using Node.js and Express.js.',
-      'Optimized data storage and retrieval with MongoDB.',
+      'Designed and implemented 10+ RESTful API endpoints using Node.js and Express.js, powering core platform features.',
+      'Modeled and integrated MongoDB schemas with indexing and query optimization, cutting query response time by ~30%.',
     ],
   },
   {
@@ -146,46 +146,46 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Chat Nexus',
+    name: 'Clawkit',
     description:
-      'A real-time chat platform with authentication and real-time messaging. Built with React.js, Node.js, and MongoDB, it enables seamless communication with a responsive UI.',
+      'An AI coding assistant for the terminal that reads, plans, and edits code in your workspace using LLMs via OpenRouter. Driven from an interactive CLI or a Telegram bot, with approval-gated edits staged as reviewable diffs.',
     tags: [
       {
-        name: 'React JS',
+        name: 'TypeScript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'Node.js',
+        name: 'LLMs',
         color: 'green-text-gradient',
       },
       {
-        name: 'MongoDB',
+        name: 'CLI',
         color: 'pink-text-gradient',
       },
     ],
-    image: chatNexus,
-    source_code_link: 'https://github.com/pulkit-1110/chat-nexus-frontend',
+    image: clawkit,
+    source_code_link: 'https://github.com/pulkit-1110/clawkit',
   },
   {
-    name: 'Mystery Message',
+    name: 'PocketLM',
     description:
-      'A Next.js-powered platform that lets users receive anonymous messages via a unique sharable link! Senders can generate messages using AI or write their own.',
+      'A fully offline AI chat app that runs local LLMs directly on-device via llama.rn, with token-by-token streaming and no backend. Privacy-first, works in airplane mode — built with React Native and Expo.',
     tags: [
       {
-        name: 'NextJS',
+        name: 'React Native',
         color: 'blue-text-gradient',
       },
       {
-        name: 'GenerativeAI',
+        name: 'Expo',
         color: 'green-text-gradient',
       },
       {
-        name: 'WebDev',
+        name: 'On-device LLM',
         color: 'pink-text-gradient',
       },
     ],
-    image: mysteryMessage,
-    source_code_link: 'https://github.com/pulkit-1110/mystery-message',
+    image: pocketlm,
+    source_code_link: 'https://github.com/pulkit-1110/pocketlm',
   },
   {
     name: 'Express Echo',
@@ -207,6 +207,27 @@ const projects = [
     ],
     image: expressEcho,
     source_code_link: 'https://github.com/pulkit-1110/ExpressEcho',
+  },
+  {
+    name: 'Mystery Message',
+    description:
+      'A Next.js-powered platform that lets users receive anonymous messages via a unique sharable link! Senders can generate messages using AI or write their own.',
+    tags: [
+      {
+        name: 'NextJS',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'GenerativeAI',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'WebDev',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: mysteryMessage,
+    source_code_link: 'https://github.com/pulkit-1110/mystery-message',
   },
 ]
 

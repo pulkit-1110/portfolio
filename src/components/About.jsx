@@ -47,13 +47,11 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled Software Developer with expertise in JavaScript and
-        TypeScript, specializing in frameworks like React, Next.js, and React
-        Native with Expo. I have experience building scalable backend systems
-        using Node.js and Express.js, along with working with databases like
-        MongoDB and SQL. I focus on developing efficient, scalable, and
-        user-friendly solutions. Let's collaborate and bring impactful ideas to
-        life!
+        Software Developer with 2+ years of experience building scalable mobile
+        and web applications using React Native, React.js, Node.js, Express.js,
+        and MongoDB. I deliver production-ready features — REST APIs, CI/CD on
+        AWS, and AI-driven applications — with a focus on user engagement and
+        reliability. Let's collaborate and bring impactful ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap items-center md:justify-between gap-5">

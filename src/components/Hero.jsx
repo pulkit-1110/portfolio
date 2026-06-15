@@ -30,9 +30,9 @@ const HeroSection = () => {
             Hi, I'm <span className="text-[#915EFF]">Pulkit Uppal</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Full Stack Software Developer with experience in Website,
+            I'm a Full Stack & Mobile Developer with 2+ years building scalable
             <br className="sm:block hidden" />
-            Mobile, and Software development. Check out my projects and skills.
+            web and mobile apps — React Native, React.js, Node.js, and AI-driven applications.
           </p>
         </div>
       </div>

@@ -40,8 +40,10 @@ import theSparksFoundationLogo from './company/theSparksFoundationLogo.png'
 import expressEcho from './expressEcho.png'
 import mysteryMessage from './mysteryMessage.png'
 import chatNexus from './chatNexus.png'
+import pocketlm from './pocketlm.jpg'
+import clawkit from './clawkit.png'
 
-import resume from './PulkitUppal_SofwareDeveloper.pdf'
+import resume from './PulkitUppal_SDE.pdf'
 
 export {
   logo,
@@ -83,4 +85,6 @@ export {
   aws,
   mysql,
   figma,
+  pocketlm,
+  clawkit,
 }
