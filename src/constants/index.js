@@ -148,7 +148,7 @@ const projects = [
   {
     name: 'Clawkit',
     description:
-      'An AI coding assistant for the terminal that reads, plans, and edits code in your workspace using LLMs via OpenRouter. Driven from an interactive CLI or a Telegram bot, with approval-gated edits staged as reviewable diffs.',
+      'An AI coding assistant for the terminal that reads, plans, and edits code across your workspace using LLMs via OpenRouter. Driven from an interactive CLI or a Telegram bot, every change is approval-gated and staged as a reviewable diff, so you stay in control while it handles the heavy lifting of multi-file edits.',
     tags: [
       {
         name: 'TypeScript',
@@ -169,7 +169,7 @@ const projects = [
   {
     name: 'PocketLM',
     description:
-      'A fully offline AI chat app that runs local LLMs directly on-device via llama.rn, with token-by-token streaming and no backend. Privacy-first, works in airplane mode — built with React Native and Expo.',
+      'A fully offline AI chat app that runs local LLMs directly on-device via llama.rn, with token-by-token streaming and zero backend. Privacy-first by design — your conversations never leave the phone and it works even in airplane mode. Built with React Native and Expo for a smooth, native cross-platform experience.',
     tags: [
       {
         name: 'React Native',
@@ -190,7 +190,7 @@ const projects = [
   {
     name: 'Express Echo',
     description:
-      'A blogging platform for creating and sharing content. Developed using ReactJS, Appwrite, and Tailwind CSS, it offers a smooth and customizable writing experience.',
+      'A full-featured blogging platform for creating, publishing, and sharing content with a clean, distraction-free editor. Built with ReactJS, Appwrite, and Tailwind CSS, it handles secure authentication, image uploads, and real-time CRUD on posts for a smooth, customizable writing experience.',
     tags: [
       {
         name: 'ReactJS',
@@ -211,7 +211,7 @@ const projects = [
   {
     name: 'Mystery Message',
     description:
-      'A Next.js-powered platform that lets users receive anonymous messages via a unique sharable link! Senders can generate messages using AI or write their own.',
+      'A Next.js-powered platform that lets users receive anonymous messages through a unique, shareable profile link. Senders can write their own notes or spin up suggestions with generative AI, while recipients manage everything from a personal dashboard. Backed by secure auth and email verification.',
     tags: [
       {
         name: 'NextJS',

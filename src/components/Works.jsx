@@ -17,14 +17,19 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.3, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.3, 0.75)}
+      className={`w-full flex ${
+        index % 2 === 0 ? "md:justify-start" : "md:justify-end"
+      } justify-center`}
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl w-full sm:w-[420px] h-full'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -48,15 +53,15 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <h3 className='text-white font-bold text-[28px]'>{name}</h3>
+          <p className='mt-2 text-secondary text-[16px] leading-[24px]'>{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+        <div className='mt-4 flex flex-wrap justify-center gap-2'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
+              className={`text-[15px] font-medium ${tag.color}`}
             >
               #{tag.name}
             </p>
@@ -87,7 +92,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap justify-center gap-7'>
+      <div className='mt-20 flex flex-col gap-10 max-w-[900px] mx-auto'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
