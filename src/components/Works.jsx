@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn, textVariant, staggerContainer } from "../utils/motion";
 
 const ProjectCard = ({
   index,
@@ -92,11 +92,17 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-col gap-10 max-w-[900px] mx-auto'>
+      <motion.div
+        variants={staggerContainer()}
+        initial='hidden'
+        whileInView='show'
+        viewport={{ once: true, amount: 0.1 }}
+        className='mt-20 flex flex-col gap-10 max-w-[900px] mx-auto'
+      >
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-      </div>
+      </motion.div>
     </>
   );
 };
